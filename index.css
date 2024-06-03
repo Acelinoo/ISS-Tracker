@@ -1,4 +1,45 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap");
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    nav h1 {
+        margin-bottom: 10px;
+        font-size: 20px; /* Menyesuaikan ukuran font untuk tampilan mobile */
+    }
+
+    nav .a-link {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    nav .a-link a {
+        margin: 5px 0;
+    }
+
+    #map {
+        height: 300px;
+    }
+
+    .container {
+        padding: 10px; /* Mengurangi padding agar konten tidak terlalu lebar */
+    }
+
+    h1 {
+        margin-top: 10px; /* Mengurangi margin atas */
+        margin-bottom: 5px; /* Mengurangi margin bawah */
+        font-size: 24px; /* Menyesuaikan ukuran font untuk tampilan mobile */
+    }
+
+    table {
+        font-size: 14px; /* Menyesuaikan ukuran font untuk tampilan mobile */
+    }
+
+    td {
+        padding: 5px; /* Mengurangi padding untuk tampilan mobile yang lebih ramping */
+    }
+}
 
 * {
     font-family: "Montserrat", sans-serif;
